@@ -10,6 +10,7 @@ import {
 
 const forYouSection = [
   {
+    id: 1,
     title:
       "Top Auckland chefs unite for this year's Kelmarna Farm Dinner series",
     timestamp: "9 hours ago",
@@ -18,6 +19,7 @@ const forYouSection = [
     image: "https://picsum.photos/64",
   },
   {
+    id: 2,
     title: "Turkish Airlines eyeing Auckland-Istanbul flights - report",
     timestamp: "1 hour ago",
     source: "New Zealand Herald",
@@ -25,12 +27,14 @@ const forYouSection = [
     image: "https://picsum.photos/64",
   },
   {
+    id: 3,
     title: "A short history of permanent temporary buildings in New Zealand",
     timestamp: "5 hours ago",
     source: "SpinOff",
     image: "https://picsum.photos/64",
   },
   {
+    id: 4,
     title:
       "Top Auckland chefs unite for this year's Kelmarna Farm Dinner series",
     timestamp: "9 hours ago",
@@ -39,6 +43,7 @@ const forYouSection = [
     image: "https://picsum.photos/64",
   },
   {
+    id: 5,
     title: "Turkish Airlines eyeing Auckland-Istanbul flights - report",
     timestamp: "1 hour ago",
     source: "New Zealand Herald",
@@ -46,6 +51,7 @@ const forYouSection = [
     image: "https://picsum.photos/64",
   },
   {
+    id: 6,
     title: "A short history of permanent temporary buildings in New Zealand",
     timestamp: "5 hours ago",
     source: "SpinOff",
