@@ -8,7 +8,16 @@ import {
   Divider,
 } from "@mui/material";
 
-const forYouSection = [
+interface NewsItem {
+  id: number;
+  title: string;
+  timestamp: string;
+  source: string;
+  author?: string;
+  image: string;
+}
+
+const forYouSection: NewsItem[] = [
   {
     id: 1,
     title:
