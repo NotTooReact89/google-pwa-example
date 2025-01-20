@@ -62,7 +62,7 @@ const localNewsSection = [
 const NewsSection = () => {
   const [selectedTab, setSelectedTab] = React.useState(0);
 
-  const handleTabChange = (event, newValue) => {
+  const handleTabChange = (_event: React.SyntheticEvent, newValue: number) => {
     setSelectedTab(newValue);
   };
 

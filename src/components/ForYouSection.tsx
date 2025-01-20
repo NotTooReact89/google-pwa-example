@@ -102,7 +102,7 @@ const NewsLayout = () => {
                   {news.title}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  {news.time} {news.author && `• By ${news.author}`}
+                  {news.timestamp} {news.author && `• By ${news.author}`}
                 </Typography>
               </CardContent>
               <CardMedia
@@ -157,7 +157,7 @@ const NewsLayout = () => {
                   {news.title}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  {news.time} {news.author && `• By ${news.author}`}
+                  {news.timestamp} {news.author && `• By ${news.author}`}
                 </Typography>
               </CardContent>
               <CardMedia
